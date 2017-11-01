@@ -1,0 +1,54 @@
+// Media query mixins - use like so: @include mobile {...} 
+
+// for mobiles
+@mixin mobile {
+	@media (min-width: map-get($grid-breakpoints, sm)) {
+		@content;
+	}
+}
+
+
+// for tablets in portrait orientation
+@mixin portrait {
+	@media (min-width: map-get($grid-breakpoints, md)) {
+		@content;
+	}
+}
+
+// for tablets in landscape orientation
+@mixin landscape {
+	@media (min-width: map-get($grid-breakpoints, lg)) {
+		@content;
+	}
+}
+
+// for desktops
+@mixin desktop {
+	@media (min-width: map-get($grid-breakpoints, xl)) {
+		@content;
+	}
+}
+
+
+// FONT MIXINS
+@mixin font($type: 'serif', $weight: normal, $style: normal) {
+	@if ($type == 'sans-serif') {
+		font-family:'NEUZEIT GROTESK W03', sans-serif;
+		//font-family:'DIN NEUZEIT® GROTESK W02', sans-serif;
+		font-weight: 200;
+	} @else {
+		font-family: 'PT Serif', serif;
+		font-weight: 400;
+	}
+
+	@if ($weight != normal) {
+		font-weight: $weight;
+	}
+
+	font-style: $style;
+}
+
+// Make space mixin
+@mixin makeSpace($size: 10px) {
+	margin: $size 0 0 0;
+}

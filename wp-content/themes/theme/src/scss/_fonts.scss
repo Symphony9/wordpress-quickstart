@@ -1,0 +1,35 @@
+/*
+*
+* Uncomment and change paths after you add fonts
+*
+
+@font-face {
+	font-family:'Danzza';
+	src: url('../src/fonts/Danzza Regular.eot');
+	src: local('../src/fonts/Danzza-Regular'), local(Danzza Regular),
+		url('../src/fonts/Danzza Regular.eot?#iefix') format('embedded-opentype'),
+		url('../src/fonts/Danzza Regular.woff2') format('woff2'),
+		url('../src/fonts/Danzza Regular.woff') format('woff'),
+		url('../src/fonts/Danzza Regular.ttf') format('truetype'),
+		url('../src/fonts/Danzza Regular.svg#Danzza Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2648;
+}
+
+@font-face {
+	font-family:'Danzza';
+	src: url('../src/fonts/Danzza Medium.eot');
+	src: local('../src/fonts/Danzza-Medium'), local(Danzza Medium),
+		url('../src/fonts/Danzza Medium.eot?#iefix') format('embedded-opentype'),
+		url('../src/fonts/Danzza Medium.woff2') format('woff2'),
+		url('../src/fonts/Danzza Medium.woff') format('woff'),
+		url('../src/fonts/Danzza Medium.ttf') format('truetype'),
+		url('../src/fonts/Danzza Medium.svg#Danzza Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2648;
+}
+*/

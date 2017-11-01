@@ -1,0 +1,11 @@
+html, body {
+	font-family: 'Danzza', sans-serif;
+	font-weight: 400;
+	background-color: $color-bg;
+}
+
+body {
+	min-height: 100vh;
+	position: relative;
+	color: $color-text;
+}
